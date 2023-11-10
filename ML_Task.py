@@ -31,7 +31,7 @@ knn_model = KNeighborsClassifier()
 knn_model.fit(X_train, y_train)
 
 # Streamlit app
-st.title("Task Machine Learning: Benchmarking")
+st.title("Task Machine Learning: Benchmarking - Joppe Vanhelden")
 
 # Sidebar controls
 selected_models = st.sidebar.multiselect("Select Models", ["Random Forest", "SVM", "KNN"])
