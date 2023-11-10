@@ -57,7 +57,6 @@ for selected_model in selected_models:
         y_pred = model.predict(X_test)
         conf_matrix = confusion_matrix(y_test, y_pred)
         st.subheader(f"{selected_model} Confusion Matrix:")
-        st.write(conf_matrix)
 
         # Plot Confusion Matrix with different color map for each model
         plt.figure(figsize=(9, 7))
